@@ -19,7 +19,7 @@ def prepare_data():
     print("preparing some critical data for every test")
 
 
-class TestMainPage1():
+class TestMainPage1:
     def test_guest_should_see_login_link(self, browser):
         # не передаём как параметр фикстуру prepare_data, но она все равно выполняется
         browser.get(link)
